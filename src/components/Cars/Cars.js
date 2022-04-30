@@ -1,14 +1,23 @@
 import React from "react";
+import { Button, Card } from "react-bootstrap";
 
 const Cars = (props) => {
-  const { company_name, ceo_full_name, stock_market_cap, country } =
+  const { company_name, ceo_full_name, stock_market_cap, country, images } =
     props.allcar;
   return (
     <div>
-      {<h1>Company Name: {company_name}</h1>}
-      <h3> CEO: {ceo_full_name}</h3>
-      <h3> Country: {country}</h3>
-      <h3> Market Value: {stock_market_cap}</h3>
+      <div>
+        <Card style={{ width: "18rem" }}>
+          <Card.Img variant="top" src={images} />
+          <Card.Body>
+            <Card.Title>{company_name}</Card.Title>
+            <Card.Text>CEO- {ceo_full_name}</Card.Text>
+            <Card.Text>Market Value- {stock_market_cap}</Card.Text>
+            <Card.Text>Country- {country}</Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+          </Card.Body>
+        </Card>
+      </div>
     </div>
   );
 };

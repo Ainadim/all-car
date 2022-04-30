@@ -1,20 +1,162 @@
-[{"id":1,"company_name":"Mercury","ceo_full_name":"Harper Bickell","stock_market_cap":"$64.14M","country":"Australia"},
-{"id":2,"company_name":"Buick","ceo_full_name":"Sela Isacoff","stock_market_cap":"$26.32B","country":"Indonesia"},
-{"id":3,"company_name":"Mercury","ceo_full_name":"Jamesy Upchurch","stock_market_cap":"$200.65M","country":"China"},
-{"id":4,"company_name":"Mercury","ceo_full_name":"Meade Farnes","stock_market_cap":"n/a","country":"Canada"},
-{"id":5,"company_name":"Mitsubishi","ceo_full_name":"Delmore Fealty","stock_market_cap":"n/a","country":"Poland"},
-{"id":6,"company_name":"Nissan","ceo_full_name":"Luisa Baynes","stock_market_cap":"$115.2M","country":"Philippines"},
-{"id":7,"company_name":"Plymouth","ceo_full_name":"Tony Oliphard","stock_market_cap":"$9.87B","country":"Portugal"},
-{"id":8,"company_name":"Land Rover","ceo_full_name":"Mario Dudley","stock_market_cap":"$198.85M","country":"Madagascar"},
-{"id":9,"company_name":"Honda","ceo_full_name":"Katy Jahnig","stock_market_cap":"$53.4B","country":"Croatia"},
-{"id":10,"company_name":"Chevrolet","ceo_full_name":"Jayme Bemwell","stock_market_cap":"$524.17M","country":"Indonesia"},
-{"id":11,"company_name":"Maybach","ceo_full_name":"Lilas Zorer","stock_market_cap":"$591.49M","country":"Czech Republic"},
-{"id":12,"company_name":"Plymouth","ceo_full_name":"Gilberte Castelijn","stock_market_cap":"$1.35B","country":"Spain"},
-{"id":13,"company_name":"Mercury","ceo_full_name":"Delly Gowan","stock_market_cap":"$21.55M","country":"Philippines"},
-{"id":14,"company_name":"Mercedes-Benz","ceo_full_name":"Marna Klaassens","stock_market_cap":"$888.93M","country":"Indonesia"},
-{"id":15,"company_name":"Honda","ceo_full_name":"Pren Rzehorz","stock_market_cap":"$21.95B","country":"Indonesia"},
-{"id":16,"company_name":"Subaru","ceo_full_name":"Verene Attwool","stock_market_cap":"$391.38M","country":"Pakistan"},
-{"id":17,"company_name":"Volkswagen","ceo_full_name":"Tymothy Boutell","stock_market_cap":"n/a","country":"Portugal"},
-{"id":18,"company_name":"Mercedes-Benz","ceo_full_name":"Constancia Trathan","stock_market_cap":"$1.38B","country":"Indonesia"},
-{"id":19,"company_name":"GMC","ceo_full_name":"Dorry Hearnden","stock_market_cap":"$1.11B","country":"Russia"},
-{"id":20,"company_name":"Buick","ceo_full_name":"Elyse Colling","stock_market_cap":"n/a","country":"China"}]
+[
+  {
+    "id": 1,
+    "company_name": "Mercury",
+    "ceo_full_name": "Harper Bickell",
+    "stock_market_cap": "$64.14M",
+    "country": "Australia",
+    "images": "https://logos-world.net/wp-content/uploads/2021/09/Mercury-Emblem.png"
+  },
+  {
+    "id": 2,
+    "company_name": "Buick",
+    "ceo_full_name": "Sela Isacoff",
+    "stock_market_cap": "$26.32B",
+    "country": "Indonesia",
+    "images": "https://logos-world.net/wp-content/uploads/2021/03/Buick-Logo.png"
+  },
+  {
+    "id": 3,
+    "company_name": "Audi",
+    "ceo_full_name": "Jamesy Upchurch",
+    "stock_market_cap": "$200.65M",
+    "country": "China",
+    "images": "https://logowik.com/content/uploads/images/562_audi.jpg"
+  },
+  {
+    "id": 4,
+    "company_name": "Mercedes",
+    "ceo_full_name": "Meade Farnes",
+    "stock_market_cap": "n/a",
+    "country": "Canada",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Mercedes_Benz_Logo_11.jpg/1200px-Mercedes_Benz_Logo_11.jpg"
+  },
+  {
+    "id": 5,
+    "company_name": "Mitsubishi",
+    "ceo_full_name": "Delmore Fealty",
+    "stock_market_cap": "n/a",
+    "country": "Poland",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Mitsubishi-logo.png/1024px-Mitsubishi-logo.png"
+  },
+  {
+    "id": 6,
+    "company_name": "Ferrari",
+    "ceo_full_name": "Luisa Baynes",
+    "stock_market_cap": "$115.2M",
+    "country": "Philippines",
+    "images": "https://logowik.com/content/uploads/images/562_audi.jpg"
+  },
+  {
+    "id": 7,
+    "company_name": "Nissan",
+    "ceo_full_name": "Tony Oliphard",
+    "stock_market_cap": "$9.87B",
+    "country": "Portugal",
+    "images": "https://logowik.com/content/uploads/images/562_audi.jpg"
+  },
+  {
+    "id": 8,
+    "company_name": "Mazda",
+    "ceo_full_name": "Mario Dudley",
+    "stock_market_cap": "$198.85M",
+    "country": "Madagascar",
+    "images": "https://logowik.com/content/uploads/images/562_audi.jpg"
+  },
+  {
+    "id": 9,
+    "company_name": "Honda",
+    "ceo_full_name": "Katy Jahnig",
+    "stock_market_cap": "$53.4B",
+    "country": "Croatia",
+    "images": "https://logowik.com/content/uploads/images/562_audi.jpg"
+  },
+  {
+    "id": 10,
+    "company_name": "Chevrolet",
+    "ceo_full_name": "Jayme Bemwell",
+    "stock_market_cap": "$524.17M",
+    "country": "Indonesia",
+    "images": "https://logowik.com/content/uploads/images/562_audi.jpg"
+  },
+  {
+    "id": 11,
+    "company_name": "Maybach",
+    "ceo_full_name": "Lilas Zorer",
+    "stock_market_cap": "$591.49M",
+    "country": "Czech Republic",
+    "images": "https://logos-world.net/wp-content/uploads/2020/05/Ferrari-Logo.png"
+  },
+  {
+    "id": 12,
+    "company_name": "Plymouth",
+    "ceo_full_name": "Gilberte Castelijn",
+    "stock_market_cap": "$1.35B",
+    "country": "Spain",
+    "images": "https://logos-world.net/wp-content/uploads/2021/03/Buick-Logo.png"
+  },
+  {
+    "id": 13,
+    "company_name": "Bugatti",
+    "ceo_full_name": "Delly Gowan",
+    "stock_market_cap": "$21.55M",
+    "country": "Philippines",
+    "images": "https://logowik.com/content/uploads/images/562_audi.jpg"
+  },
+  {
+    "id": 14,
+    "company_name": "Mercedes-Benz",
+    "ceo_full_name": "Marna Klaassens",
+    "stock_market_cap": "$888.93M",
+    "country": "Indonesia",
+    "images": "https://logos-world.net/wp-content/uploads/2021/03/Buick-Logo.png"
+  },
+  {
+    "id": 15,
+    "company_name": "Honda",
+    "ceo_full_name": "Pren Rzehorz",
+    "stock_market_cap": "$21.95B",
+    "country": "Indonesia",
+    "images": "https://logowik.com/content/uploads/images/562_audi.jpg"
+  },
+  {
+    "id": 16,
+    "company_name": "Subaru",
+    "ceo_full_name": "Verene Attwool",
+    "stock_market_cap": "$391.38M",
+    "country": "Pakistan",
+    "images": "https://logos-world.net/wp-content/uploads/2021/03/Buick-Logo.png"
+  },
+  {
+    "id": 17,
+    "company_name": "Volkswagen",
+    "ceo_full_name": "Tymothy Boutell",
+    "stock_market_cap": "n/a",
+    "country": "Portugal",
+    "images": "https://logowik.com/content/uploads/images/562_audi.jpg"
+  },
+  {
+    "id": 18,
+    "company_name": "Mercedes-Benz",
+    "ceo_full_name": "Constancia Trathan",
+    "stock_market_cap": "$1.38B",
+    "country": "Indonesia",
+    "images": "https://logos-world.net/wp-content/uploads/2021/03/Buick-Logo.png"
+  },
+  {
+    "id": 19,
+    "company_name": "GMC",
+    "ceo_full_name": "Dorry Hearnden",
+    "stock_market_cap": "$1.11B",
+    "country": "Russia",
+    "images": "https://logos-world.net/wp-content/uploads/2021/03/Buick-Logo.png"
+  },
+  {
+    "id": 20,
+    "company_name": "Buick",
+    "ceo_full_name": "Elyse Colling",
+    "stock_market_cap": "n/a",
+    "country": "China",
+    "images": "https://logos-world.net/wp-content/uploads/2021/03/Buick-Logo.png"
+  }
+]
