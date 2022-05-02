@@ -16,10 +16,7 @@ const Cars = (props) => {
           <Card.Text>CEO- {ceo_full_name}</Card.Text>
           <Card.Text>Market Value- {stock_market_cap}</Card.Text>
           <Card.Text>Country- {country}</Card.Text>
-          <Button
-            onClick={() => handleAddCar(props.handleAddCar)}
-            variant="primary"
-          >
+          <Button onClick={() => handleAddCar(props.allcar)} variant="primary">
             Add to cart
           </Button>
         </Card.Body>
