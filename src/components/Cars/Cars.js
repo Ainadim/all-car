@@ -6,6 +6,7 @@ const Cars = (props) => {
   const { company_name, ceo_full_name, stock_market_cap, country, images } =
     props.allcar;
   const handleAddCar = props.handleAddCar;
+
   return (
     <div>
       <Card className="car-box pt-5 pb-2" style={{ width: "300px" }}>
