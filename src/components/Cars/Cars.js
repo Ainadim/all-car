@@ -14,7 +14,9 @@ const Cars = (props) => {
         <Card.Body>
           <Card.Title>{company_name}</Card.Title>
           <Card.Text>CEO- {ceo_full_name}</Card.Text>
-          <Card.Text>Market Value- {stock_market_cap}</Card.Text>
+          <Card.Text>
+            Market Value - {stock_market_cap} MIllion Dollar
+          </Card.Text>
           <Card.Text>Country- {country}</Card.Text>
           <Button onClick={() => handleAddCar(props.allcar)} variant="primary">
             Add to cart

@@ -1,0 +1,15 @@
+.divUl {
+  border: 1px solid #be2c2c;
+  width: 100%;
+
+  list-style-type: none;
+}
+.divUl ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.divUl ul li {
+  border: 1px solid #302e2e;
+  width: 100%;
+}
