@@ -13,10 +13,15 @@ const CarsBuyCart = (props) => {
   return (
     <div className="m-5">
       <h5>Cart List:</h5>
-      <p>You added {carAddCart.length} Company</p>
-      <p>You need total ${totalBudget} million to buy</p>
+      <p style={{ backgroundColor: "#2E52D2", color: "#fff", padding: "5px" }}>
+        You added {carAddCart.length} Company
+      </p>
+
       <div className="divUl">
-        <ul className="d-flex">
+        <ul
+          className="d-flex"
+          style={{ backgroundColor: "#C1313E", color: "#fff" }}
+        >
           <li>Company Name</li>
           <li>Market Value</li>
         </ul>
@@ -25,9 +30,16 @@ const CarsBuyCart = (props) => {
             <li>{carName.company_name}</li> <li>{carName.stock_market_cap}</li>
           </ul>
         ))}
-        <ul className="d-flex">
-          <li>You need total</li>
-          <li>${totalBudget}</li>
+        <ul
+          className="d-flex"
+          style={{ backgroundColor: "#2E52D2", color: "#fff" }}
+        >
+          <li>
+            <h6>Total Value</h6>
+          </li>
+          <li>
+            <h6>${totalBudget}</h6>
+          </li>
         </ul>
       </div>
     </div>

@@ -21,6 +21,9 @@ const Cars = (props) => {
           <Button onClick={() => handleAddCar(props.allcar)} variant="primary">
             Add to cart
           </Button>
+          <Button onClick={() => handleAddCar(props.allcar)} variant="danger">
+            Remove from cart
+          </Button>
         </Card.Body>
       </Card>
     </div>
