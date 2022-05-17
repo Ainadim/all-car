@@ -13,8 +13,12 @@ const AllCars = () => {
   }, []);
 
   const handleAddCar = (allCar) => {
-    const newCar = [...addCars, allCar];
-    setAddCars(newCar);
+    if (addCars.length < 10) {
+      const newCar = [...addCars, allCar];
+      setAddCars(newCar);
+    } else {
+      alert("You Added Maximum");
+    }
   };
 
   return (

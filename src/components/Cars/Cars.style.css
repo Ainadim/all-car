@@ -1,7 +1,8 @@
 .car-box img {
-  max-width: 100%;
-  max-height: 160px;
+  width: auto;
+  max-height: 150px;
 }
 .car-box {
   margin-right: 5px;
+  height: 100%;
 }

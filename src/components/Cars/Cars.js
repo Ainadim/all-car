@@ -1,11 +1,17 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
+import { addToDo } from "../../fakeDB/storage";
 import "./Cars.style.css";
 
 const Cars = (props) => {
   const { company_name, ceo_full_name, stock_market_cap, country, images } =
     props.allcar;
-  const handleAddCar = props.handleAddCar;
+  const handleAddCar = (id) => {
+    addToDo(id);
+    console.log(id);
+  };
+
+  // const handleAddCar = props.handleAddCar;
 
   return (
     <div>
@@ -18,11 +24,15 @@ const Cars = (props) => {
             Market Value - {stock_market_cap} MIllion Dollar
           </Card.Text>
           <Card.Text>Country- {country}</Card.Text>
-          <Button onClick={() => handleAddCar(props.allcar)} variant="primary">
+          <Button
+            onClick={() => handleAddCar(company_name)}
+            variant="primary"
+            style={{ marginRight: "10px" }}
+          >
             Add to cart
           </Button>
           <Button onClick={() => handleAddCar(props.allcar)} variant="danger">
-            Remove from cart
+            Remove
           </Button>
         </Card.Body>
       </Card>
