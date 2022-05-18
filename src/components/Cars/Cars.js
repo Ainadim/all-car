@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
-import { addToDo } from "../../fakeDB/storage";
+import { addToDo, removeFromDb } from "../../fakeDB/storage";
 import "./Cars.style.css";
 
 const Cars = (props) => {
@@ -8,6 +8,11 @@ const Cars = (props) => {
     props.allcar;
   const handleAddCar = (id) => {
     addToDo(id);
+    console.log(id);
+  };
+
+  const handleRomvePlayer = (id) => {
+    removeFromDb(id);
     console.log(id);
   };
 
@@ -31,7 +36,10 @@ const Cars = (props) => {
           >
             Add to cart
           </Button>
-          <Button onClick={() => handleAddCar(props.allcar)} variant="danger">
+          <Button
+            onClick={() => handleRomvePlayer(company_name)}
+            variant="danger"
+          >
             Remove
           </Button>
         </Card.Body>

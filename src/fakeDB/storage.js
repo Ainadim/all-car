@@ -1,19 +1,35 @@
 // Use local storage as a Data base
 
-const addToDo = (id) => {
-  const exists = localStorage.getItem("player_cart");
-  let player_cart = {};
+let addToDo = (id) => {
+  const exists = localStorage.getItem("car_cart");
+  let car_cart = {};
   if (!exists) {
-    player_cart[id] = 1;
+    car_cart[id] = 1;
   } else {
-    player_cart = JSON.parse(exists);
-    if (player_cart[id]) {
-      const newCount = player_cart[id] + 1;
-      player_cart[id] = newCount;
+    car_cart = JSON.parse(exists);
+    if (car_cart[id]) {
+      const newCount = car_cart[id] + 1;
+      car_cart[id] = newCount;
     } else {
-      player_cart[id] = 1;
+      car_cart[id] = 1;
     }
   }
-  localStorage.setItem("player_cart", JSON.stringify(player_cart));
+  updateDb(car_cart);
 };
-export { addToDo };
+
+const updateDb = (cart) => {
+  localStorage.setItem("car_cart", JSON.stringify(cart));
+};
+
+// Remove item from Store//
+let removeFromDb = (id) => {
+  const exists = localStorage.getItem("car_cart");
+  if (!exists) {
+  } else {
+    const car_cart = JSON.parse(exists);
+    delete car_cart[id];
+    updateDb(car_cart);
+  }
+};
+
+export { addToDo, removeFromDb };
